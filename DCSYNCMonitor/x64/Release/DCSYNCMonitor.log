@@ -1,0 +1,16 @@
+﻿  DCSYNCMonitorService.cpp
+  debug_print.cpp
+  event_log.cpp
+  InstallService.cpp
+  misc_helpers.cpp
+  monitor.cpp
+  packet_dissector.cpp
+packet_dissector.cpp(33): warning C4018: '<': signed/unsigned mismatch
+packet_dissector.cpp(87): warning C4018: '<': signed/unsigned mismatch
+  ServiceBase.cpp
+  ServiceInstaller.cpp
+  thread_helper.cpp
+  Generating code
+  All 1030 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  DCSYNCMonitor.vcxproj -> C:\Users\shellster\Documents\Visual Studio 2015\Projects\DCSYNCMonitor\x64\Release\DCSYNCMONITORSERVICE.exe
