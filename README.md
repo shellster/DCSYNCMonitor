@@ -18,13 +18,13 @@ Installation Instructions
 To install this tool, you can use either the pre-built binaries or build the tool
 yourself. Link for prebuilt binaries is here:
 
-32bit Service: https://github.com/shellster/DCSYNCMontor/raw/master/Release/DCSYNCMONITORSERVICE.exe
+32bit Service: https://github.com/shellster/DCSYNCMonitor/raw/master/Release/DCSYNCMONITORSERVICE.exe
 
-64bit Service: https://github.com/shellster/DCSYNCMontor/raw/master/x64/Release/DCSYNCMONITORSERVICE.exe
+64bit Service: https://github.com/shellster/DCSYNCMonitor/raw/master/x64/Release/DCSYNCMONITORSERVICE.exe
 
 You will need either Winpcap or Npcap installed on your domain controller. Winpcap
 should work, but is not recommended as the packet capture methods are not as efficient
-or through as NPcap.  This tool has only been briefly tested with Winpcap.
+or thorough as NPcap.  This tool has only been briefly tested with Winpcap.
 
 To install Npcap, downloaded the installer it from here: https://nmap.org/npcap/
 
@@ -83,7 +83,7 @@ DCMONITORSERVICE.exe -install
 ```
 
 Once you have installed the service, you will need to start it manually from the
-Services.msc menu or by using the net or sc commands. It will auto-start on future 
+Services.msc menu or by using appropriate net or sc commands. It will auto-start on future 
 reboots.
 
 Should you need to uninstall the service, run the following command:
@@ -105,12 +105,12 @@ Screenshots
 DC SYNC Warning events occur when there is no list of valid DC IPs provided, or 
 when a DC SYNC occurs from a valid DC IP:
 
-![alt text](https://raw.githubusercontent.com/shellster/DCSYNCMontor/master/images/warn_dcsync.png "DCSYNC Warning Event Example")
+![alt text](https://raw.githubusercontent.com/shellster/DCSYNCMonitor/master/images/warn_dcsync.png "DCSYNC Warning Event Example")
 
 DC SYNC Error events occur when a list of valid DC IPs are provided and a DC SYNC
 occurs from any other IP address:
 
-![alt text](https://raw.githubusercontent.com/shellster/DCSYNCMontor/master/images/error_dcsync.png "DCSYNC Error Event Example")
+![alt text](https://raw.githubusercontent.com/shellster/DCSYNCMonitor/master/images/error_dcsync.png "DCSYNC Error Event Example")
 
 
 Compilation Instructions
