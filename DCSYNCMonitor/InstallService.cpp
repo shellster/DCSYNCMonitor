@@ -94,10 +94,18 @@ int wmain(int argc, wchar_t *argv[])
 			usage();
 		}
     }
-    else
+    else if(GetConsoleWindow())
     {
 		usage();
     }
+	else
+	{
+		DCSYNCMonitorService service(SERVICE_NAME);
+		if (!CServiceBase::Run(service))
+		{
+			wprintf(L"Service failed to run w/err 0x%08lx\n", GetLastError());
+		}
+	}
 
     return 0;
 }
