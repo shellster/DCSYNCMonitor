@@ -12,6 +12,8 @@ and, in this configuration, only alert when a DC SYNC attempt comes from a non-D
 ip. This tool is meant to provide Blue Teams with a way to combat DC SYNC and 
 DC SHADOW attacks without expensive tools like Microsoft ATA or fancy IDS/IPS.
 
+Brief Youtube Video: https://www.youtube.com/watch?v=oLND9QZfaJc
+
 Installation Instructions
 -------------------------
 
