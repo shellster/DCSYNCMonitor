@@ -10,7 +10,7 @@ the tool will write an event to the Windows Event Log.  These events can be
 correlated in a SIEM.  In addition, this tool can take a list of valid DC IP's
 and, in this configuration, only alert when a DC SYNC attempt comes from a non-DC
 ip. This tool is meant to provide Blue Teams with a way to combat DC SYNC and 
-DC SHADOW attacks without expensive tools like Microsoft ATA or fancy IDS/IPS.
+DC SHADOW attacks without commercial tools like Microsoft ATA or fancy IDS/IPS.
 
 Brief Youtube Video: https://www.youtube.com/watch?v=oLND9QZfaJc
 
